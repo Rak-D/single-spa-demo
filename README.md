@@ -1,0 +1,1 @@
+Single App that should be able to house multiple javascript applications from different frameworks simultaniously
