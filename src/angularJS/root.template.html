@@ -1,0 +1,24 @@
+<div ng-style='vm.styles'>
+  <div class="container">
+    <div class="row">
+      <h4 class="light">
+        AngularJS 1.5 Example
+      </h4>
+      <p class="caption">
+        This is a sample application written with AngularJS 1.5 and angular-ui-router
+      </p>
+    </div>
+    <div>
+      <!-- These Routes are set up in the routes.js file -->
+      <a href="/angularJS/gifs" class="waves-effect waves-light btn-large" style="margin-right: 10px">
+        Show me Cat Gifs
+      </a>
+      <a href="/angularJS" class="waves-effect waves-light btn-large" style="margin-right: 10px">
+        Take me home
+      </a>
+    </div>
+    <div class="row">
+      <ui-view />
+    </div>
+  </div>
+</div>
