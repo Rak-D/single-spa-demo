@@ -2,7 +2,6 @@ Single App that should be able to house multiple javascript applications from di
 
 h4. To Run Applications
 
-\```
- yarn i
- yarn start
-\```
+1. Navigate to root directory
+2. Yarn i
+3. Yarn start
