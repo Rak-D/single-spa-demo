@@ -840,6 +840,11 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
+"@uirouter/core@6.0.3":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.3.tgz#1de7a3451039e1274e7f595de2be92421c26b09c"
+  integrity sha512-ftAQw9czKUSgLFC3LwOeJP97PDQ6naHcEK0NrbWw3X/r49oQJBMRFAsz9oEKqPFPD2vUDqkvG18BZXglLp8k+Q==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -1028,6 +1033,18 @@ ajv@^6.1.0, ajv@^6.10.2:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
+
+angular-ui-router@^1.0.24:
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-1.0.24.tgz#3e1f812f1096ddfc43e8b6cf4716a30962fc45d0"
+  integrity sha512-1bgarSWXSTvM/HFTCDn7HDRvdWo+zG1c0ceabcFR+VDAOgaUt0X11DscfMXA5fPSX+tprM606+wYSHcp86JbFg==
+  dependencies:
+    "@uirouter/core" "6.0.3"
+
+angular@^1.7.9:
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.7.9.tgz#e52616e8701c17724c3c238cfe4f9446fd570bc4"
+  integrity sha512-5se7ZpcOtu0MBFlzGv5dsM1quQDoDeUTwZrWjGtTNA7O88cD8TEk5IEKCTDa3uECV9XnvKREVUr7du1ACiWGFQ==
 
 ansi-colors@^3.0.0:
   version "3.2.4"
@@ -4502,6 +4519,11 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+single-spa-angularJS@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/single-spa-angularJS/-/single-spa-angularJS-3.1.0.tgz#93df3fe064cc16b3de40f94aee23648d2d2eba5e"
+  integrity sha512-tBI30El6T8o+DqDYxLpea2ZwFt700FuS9KQnYOHZ/2LGuOkTWjx57ilRSziGkua2lcw3DFLaAHl+OFJBqekp4w==
 
 single-spa-react@^2.11.0:
   version "2.11.0"

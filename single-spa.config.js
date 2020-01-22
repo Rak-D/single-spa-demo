@@ -6,7 +6,6 @@ registerApplication(
   () => true
 );
 
-
 registerApplication(
   // Name of the single page application
   'home',
@@ -16,6 +15,18 @@ registerApplication(
   (location) => location.pathname === "" ||
     location.pathname === "/" ||
     location.pathname.startsWith('/home')
-)
+);
+
+const pathPrefix = prefix => {
+  return location => {
+    return location.pathname.startsWith(prefix);
+  }
+}
+
+registerApplication(
+  'angularJS',
+  () => import('./src/angularJS/angularJS.app.js'),
+  pathPrefix('/angularJS')
+);
 
 start()
