@@ -30,7 +30,7 @@
     "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
-    "start": "webpack-dev-sever --open",
+    "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.config.js -p"
   }
 }
